@@ -53,7 +53,7 @@ export const actions = {
 			});
 		}
 
-		throw redirect(303, '/dashboard');
+		throw redirect(303, '/');
 	},
 
 	'signin-with-oauth': async ({ request, url, locals: { supabase } }) => {
